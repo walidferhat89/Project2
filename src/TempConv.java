@@ -40,7 +40,8 @@ public class TempConv {
             System.out.println("Entry not valid, try again!!");
             mode = scan.nextInt();
         }
-    }while (mode == 1);
+    }
+        while (mode == 1);
         System.out.println("----------- Good bye!!!!!------------");
         }
 
